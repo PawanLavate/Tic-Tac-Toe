@@ -1,12 +1,73 @@
-# React + Vite
+```markdown
+# 🕹️ Tic-Tac-Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A single-player Tic-Tac-Toe game built using **React**, where users can play against an intelligent computer opponent powered by the **Minimax algorithm**. The game features a clean, responsive UI with image-based 'X' and 'O' markers and smooth gameplay interactions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎮 Interactive single-player gameplay against a smart AI
+- 🧠 AI logic implemented using the Minimax algorithm
+- 🎨 Custom images used for 'X' and 'O' markers
+- 🔄 Reset button to restart the game without page refresh
+- 🌐 Navigation handled using `react-router-dom`
+- 💡 Real-time UI updates after every move
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **CSS**
+- **React Router DOM**
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/tic-tac-toe-react.git
+   cd tic-tac-toe-react
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
+
+4. Visit `http://localhost:3000` in your browser to play the game.
+
+
+## ❗ Known Issues / To-Do
+
+- Add multiplayer functionality
+- Add difficulty levels for AI
+- Improve accessibility and mobile responsiveness
+
+---
+
+## 📃 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🤝 Contributions
+
+Contributions, issues, and feature requests are welcome!
+
+---
+
+## 🙌 Acknowledgements
+
+- [OpenAI](https://openai.com) for AI logic inspiration
+- React community for helpful documentation and tutorials
+```
